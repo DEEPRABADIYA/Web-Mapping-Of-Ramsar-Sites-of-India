@@ -1,0 +1,165 @@
+#controls {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    z-index: 1000;
+    background-color: rgba(237, 237, 238, 0.76);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#states-select {
+    position: absolute;
+    top: 190px;
+    right: 10px;
+    z-index: 1000;
+    background-color: rgba(237, 237, 238, 0.76);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.map {
+    position: absolute;
+    height: 100vh;
+    right: auto;
+    width: 100vw;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+
+.basemap-filters {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    right: 10px;
+    z-index: 1000;
+    background-color: rgba(237, 237, 238, 0.76);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
+}
+
+.basemap-filters:hover,
+#controls:hover,
+#states-select:hover,
+#popup:hover {
+    background-color: rgba(143, 213, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#stateSelect,
+#filterSelect {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#stateSelect,
+#filterSelect option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#stateSelect,
+#filterSelect {
+    background-color: #f0f0f0;
+}
+
+#popup {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    z-index: 100;
+    background-color: rgba(237, 237, 238, 0.76);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#popup button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#popup button:hover {
+    background-color: #ccc;
+}
+
+.legend {
+    background-color: rgba(238, 238, 238, 0.8);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5%;
+    right: 35px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.legend:hover {
+    background-color: rgba(143, 213, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.point-feature-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 5px;
+}
+
+.point-feature-1 {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 5px;
+}
+
+legend h2 {
+    font-size: 35px;
+}
+
+.legend ul {
+    font-size: 25px;
+}
+
+.legend ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.legend li {
+    margin-bottom: 10px;
+}
+
+.legend span {
+    display: inline-block;
+    vertical-align: middle;
+}
